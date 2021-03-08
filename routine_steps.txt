@@ -20,14 +20,17 @@ git config --global core.editor vim
 
 cd catkin_ws/src/ROS-for-Autonomous-Cars
 
-git pull origin master
+git pull origin main
 
-git init
+
+git init -b main
 
 git add .
 
-git status
-
 git commit -m "Comment"
 
-git push origin master
+git remote add origin <clone clone link>
+
+git remote -v
+
+git push origin main
