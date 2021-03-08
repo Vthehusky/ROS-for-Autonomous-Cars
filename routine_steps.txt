@@ -12,9 +12,9 @@ chmod 600 id_rsa
 
 cd ..
 
-git config --global user.name "Vinay Prakash"
+git config --global user.name "<Name>"
 
-git config --global user.email "vinaypra@mtu.edu"
+git config --global user.email "<email@id>"
 
 git config --global core.editor vim
 
